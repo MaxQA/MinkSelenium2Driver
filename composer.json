@@ -24,6 +24,10 @@
         "behat/mink":                "~1.4@dev",
         "instaclick/php-webdriver":  "~1.1"
     },
+    
+    "provide": {
+		"behat/mink-selenium2-driver": "self.version"
+	},
 
     "autoload": {
         "psr-0": {
